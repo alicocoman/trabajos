@@ -1,0 +1,7 @@
+Azteca|3|12|1|99|0|5|80|75|50|2|True|500|Cansancio,Cefaleas|100000|45411096|True|2/5/2021 0:00:00|Uruguay|1
+Butanvac|1|50|1|100|-15|0|50|45|15|1|False|45|Trombosis,Calambres,Cansancio,Histeria|1000000|45411096|False|2/5/2021 0:00:00|Brasil,Argentina|2
+J&J|1|15|0|100|0|13|45|70|99|3|True|80|Varios|200000|45411096|False|2/5/2021 0:00:00|Inglaterra,Canada|3
+Pfizer|2|15|4|80|-20|32|75|80|100|2|True|25|Fiebre, Fatiga, Agotamiento|1000000|45411096|True|2/5/2021 0:00:00|Peru|2
+Sinovac|2|30|4|75|0|10|50|80|65|4|True|56|Fatiga,Fiebre,Gripe|2000000|45411096|True|2/5/2021 0:00:00|China,Alemania|1
+
+

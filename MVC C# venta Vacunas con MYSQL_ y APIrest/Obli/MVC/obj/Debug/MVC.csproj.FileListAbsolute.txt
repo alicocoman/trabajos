@@ -1,0 +1,216 @@
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\MVC.dll.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\MVC.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\MVC.pdb
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\apiV.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Archvos.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Dominio.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Repositorios.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\WebGrease.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\apiV.pdb
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\apiV.dll.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Archvos.pdb
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Archvos.dll.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Dominio.pdb
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Dominio.dll.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Repositorios.pdb
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Repositorios.dll.config
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.Http.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\obj\Debug\MVC.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\obj\Debug\MVC.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\obj\Debug\MVC.csproj.CopyComplete
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\obj\Debug\MVC.dll
+C:\Users\Admin\Desktop\ORT AP\Semestre 3\Programacion3\ObligatorioParte2_Alico_Solari\Obli\MVC\obj\Debug\MVC.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\MVC.dll.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\MVC.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\MVC.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\csc.exe
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\csc.exe.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\csc.rsp
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\csi.exe
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\csi.exe.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\csi.rsp
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.AppContext.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Console.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.IO.Compression.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.Claims.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.ValueTuple.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\vbc.exe
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\vbc.exe.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\vbc.rsp
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\VBCSCompiler.exe
+C:\Users\Usuario\Desktop\Obli\MVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\apiV.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Archvos.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Dominio.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\EntityFramework.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Repositorios.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Net.Http.Formatting.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Helpers.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Razor.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.WebPages.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\WebGrease.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Http.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Http.WebHost.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\apiV.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\apiV.dll.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Archvos.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Archvos.dll.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Dominio.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Dominio.dll.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Repositorios.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Repositorios.dll.config
+C:\Users\Usuario\Desktop\Obli\MVC\bin\EntityFramework.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Net.Http.Formatting.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Helpers.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Optimization.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Razor.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.WebPages.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Antlr3.Runtime.pdb
+C:\Users\Usuario\Desktop\Obli\MVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Http.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\System.Web.Http.WebHost.xml
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.Razor.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.Http.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Usuario\Desktop\Obli\MVC\obj\Debug\MVC.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Obli\MVC\obj\Debug\MVC.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Obli\MVC\obj\Debug\MVC.csproj.CopyComplete
+C:\Users\Usuario\Desktop\Obli\MVC\obj\Debug\MVC.dll
+C:\Users\Usuario\Desktop\Obli\MVC\obj\Debug\MVC.pdb

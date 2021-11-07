@@ -1,0 +1,5 @@
+section:nth-child(1){
+      background-image: url("../imagenes/index_1.jpg");
+      background-size:cover;
+      height:100vh;
+}

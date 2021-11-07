@@ -1,0 +1,69 @@
+@font-face{
+      font-family: "Bebas";
+      src: url("../fonts/bebas.ttf")
+}
+@font-face{
+      font-family: "Roboto";
+      src: url("../fonts/Roboto.ttf")
+}
+body{
+      font-family: "Roboto";
+}
+.bg-dark{
+      background-color: black !important;
+}
+#menuColapsado{
+      color: white;
+      font-family: "Bebas";
+      letter-spacing: 2px;
+}
+
+
+#menuColapsado a:hover,#menuColapsado a.active{
+      color:red;
+}
+
+/*Section 1*/
+section:nth-child(2){
+      background-image: url("../img/fondo.jpg");
+      height:400px;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+h1{
+      color: white;
+      font-family: "Bebas";
+      font-size: 85px;
+}
+h2   {
+      color: black;
+}
+/*Section 3*/
+article a{
+      background-color: black;
+      color: white;
+      letter-spacing: 1px;
+      font-size: 11px;
+}
+article a:hover{
+      background-color: red;
+      text-decoration: none;
+}
+
+/*Section 4*/
+section:nth-child(4){
+      background-image: url("../img/fondo2.jpg");
+      height:400px;
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+/*Footer*/
+footer{
+      background-color: black;
+}
+
+
+
+

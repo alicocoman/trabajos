@@ -1,0 +1,222 @@
+﻿@model MVC.Models.ModeloVacEntero
+
+@{
+    ViewBag.Title = "Detalles";
+
+    if (Session["Cedula"] != null)
+    {
+
+
+
+
+
+
+
+        <h2>Comprar</h2>
+
+        <h3>Seleccionar Comprador</h3>
+        <form action="/ConsumidorApi/Comprar" method="post">
+            @if (ViewBag.Prestadores != null)
+            {<label>Seleccione un prestador</label>
+                <select name="opciones" id="opciones" required>
+                    @foreach (var c in ViewBag.Prestadores)
+                    {
+                        <option value="@c.NroMSP">@c.Nombre</option>
+
+                    }
+
+                </select>
+            }
+            <label>Cantidad a comprar</label>
+            <input type="number" id="cantidad" name="cantidad" />
+            <input type="hidden" value="@Model.Nombre" id="Nombre" name="Nombre" />
+            <input type="hidden" value="@Model.Precio" id="Precio " name="Precio" />
+            <input type="submit" name="command" value="comprar" class="btn btn-primary" />
+
+        </form>
+
+
+        <div>
+            <h4>Vacuna a comprar</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Nombre)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.IdTipoDeVacuna)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.IdTipoDeVacuna)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.NombreLaboratorios)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.NombreLaboratorios)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CantDosis)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CantDosis)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.DiasEntreDosis)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.DiasEntreDosis)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.EdadMinima)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EdadMinima)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.EdadMaxima)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EdadMaxima)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.EficaciaVsCovid)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EficaciaVsCovid)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PrevenirHospitalizacion)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PrevenirHospitalizacion)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PrevenirCTI)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PrevenirCTI)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.TempMinima)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TempMinima)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.TempMaxima)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.TempMaxima)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FaseClinicaAprobacion)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FaseClinicaAprobacion)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.AprovacionDeEmergencia)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.AprovacionDeEmergencia)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.EfectosAdversos)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.EfectosAdversos)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.Precio)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.ProduccionAnual)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.ProduccionAnual)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FormaParteCovax)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FormaParteCovax)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.PaisesQueAprobaronLaVacuna)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.PaisesQueAprobaronLaVacuna)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.CedulaRegistrador)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CedulaRegistrador)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.FechaUltimaEdicion)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.FechaUltimaEdicion)
+                </dd>
+
+            </dl>
+        </div>
+        <p>
+
+            @Html.ActionLink("Back to List", "VacunasMuchosCriterios")
+        </p>
+    }
+    else
+    {
+        <h1> No se puede acceder sin usuario identificado</h1>
+    }
+}

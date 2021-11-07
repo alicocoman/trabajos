@@ -1,0 +1,39 @@
+
+
+cavani altura 75vh
+-----------------------------------------
+INDEX
+
+banderas
+md 5
+-----------------------------------------
+estructura para cada pais
+
+imagen
+lg 5 md 7 padding 0
+
+textos
+xl 4 lg 7 md 5
+ultimo parrafo no se ve en movil
+
+-----------------------------------------
+inferior
+
+logo 
+md 3 sm 5
+ciudades 
+md 2 margen 1 columna
+
+equipos 
+md 2 
+
+Copa América Brasil 2019 
+md 3
+-----------------------------------------
+CONTACTO
+imagen lg 6 margen 1 columna md 7 en sm no es visible
+
+formulario 
+md 5
+
+

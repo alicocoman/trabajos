@@ -1,0 +1,94 @@
+﻿@model IEnumerable<MVC.Models.ModeloVacEntero>
+
+@{
+    ViewBag.Title = "VacunasMuchosCriterios";
+}
+
+<h2>BuscarVacuna</h2>
+@using (Html.BeginForm())
+{
+    if (Session["Cedula"] != null)
+    {
+        <div>
+            <label for="Criterio">Elija su criterio de busqueda</label>
+
+        </div>
+        
+        <div>
+            @Html.CheckBox("todos");
+               
+            </div><div>
+            <label for="faseAprobacion"> Filtrar por fase de aprobacion</label>
+            <input type="number" id="faseAprobacion" name="faseAprobacion">
+        </div>  <div>
+            <label for="topeMax"> Filtrar por tope maximo</label>
+
+            <input type="number" id="topeMax" name="topeMax">
+        </div>  <div>
+            <label for="topeMin"> Filtrar por tope minimo</label>
+
+            <input type="number" id="topeMin" name="topeMin">
+        </div>  <div>
+            <label for="idTipoVac"> Filtrar por id tipo de vacuna</label>
+
+            <input type="number" id="idTipoVac" name="idTipoVac">
+        </div>  <div>
+            <label for="laboratorio"> Filtrar por laboratorio</label>
+
+            <input type="text" id="laboratorio" name="laboratorio">
+        </div>  <div>
+            <label for="pais"> Filtrar por pais</label>
+
+            <input type="text" id="pais" name="pais">
+        </div>
+        <input type="submit" value="Buscar">
+
+
+
+
+
+
+
+
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.IdTipoDeVacuna)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th></th>
+            </tr>
+
+            @if (Model != null)
+            {
+                foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Nombre)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdTipoDeVacuna)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Precio)
+                        </td>
+                        <td>
+
+                            @Html.ActionLink("Comprar", "Detalles", new { NombreVacuna = item.Nombre }) |
+
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    }
+    else
+    {<h1> No se puede acceder sin usuario identificado</h1>}
+}

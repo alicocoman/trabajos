@@ -1,0 +1,46 @@
+Index Parcial 2019 | Nombre alumno y Contacto Parcial 2019 | Nombre alumno
+---------------------------------------------------------------------
+link google fonts
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,900&display=swap" rel="stylesheet">
+---------------------------------------------------------------------
+
+colores
+verde #155724
+verde claro (hover escudos) #669900  grosor borde 4px
+celeste #2fa5fb
+naranja #c69500
+rojo #bd2130
+azul #002752
+---------------------------------------------------------------------
+
+tamaños textos
+
+grupo C y Comunicate con nosotros
+
+40 px
+peso 500
+
+nombres paises
+32 px
+peso 600
+
+frase nombre paises
+28 px
+peso 500
+
+textos paises
+16 px
+peso 400
+
+eliminado
+50 px
+peso 400
+
+footer 
+tamaños textos
+16px
+peso 600
+
+14px
+peso 400

@@ -1,0 +1,136 @@
+﻿@model IEnumerable<Obligatorio2Programacion2.Models.Compra>
+
+@{
+    ViewBag.Title = "CompraEntresDosFechas";
+}
+
+<h2>Vizualizar las compras hechas entre dos fechas</h2>
+
+
+@using (Html.BeginForm())
+{
+    <input type="date" id="fechaInicial" name="FechaInicial" required>
+    <br>
+    <input type="date" id="fechaFinal" name="FechaFinal" required>
+    <br>
+    <input type="submit" value="Buscar">
+
+}
+
+    <p> @ViewBag.comprasFecha</p>
+@if (Model != null)
+{
+    <table class="table">
+        <tr>
+            <th>
+                <p>Usuario</p>
+            </th>
+            <th>
+                <p>ID de Excursion </p>
+            </th>
+            <th>
+                <p>Cantidad de pasajeros</p>
+            </th>
+            <th>
+                <p>Monto por pasajero</p>
+            </th>
+            <th>
+                <p>Destinos</p>
+            </th>
+            <th>
+                Ajuste (Taza)
+            </th>
+            <th>
+                <p>Monto Total</p>
+            </th>
+            <th>
+                Tipo De Excursion
+            </th>
+
+
+            <th>
+                @Html.DisplayNameFor(model => model.FechaCompra)
+            </th>
+            <th>
+                Estado De Compra
+            </th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Comprador.NombreUsu)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ExcursionComprada.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPasajeros)
+
+                </td>
+                <td>
+                    $  @Html.DisplayFor(modelItem => item.CostoPesosPasajero) ||  USD$ @Html.DisplayFor(modelItem => item.CostoDolaresPasajero)
+                </td>
+                <td>
+                    @foreach (var d in item.ExcursionComprada.GetlistaDestinosDeExcursion())
+                    {
+                        <p> @Html.DisplayFor(modelItem => d.Ciudad)  //  @Html.DisplayFor(modelItem => d.Pais) </p>
+                        <br>
+
+                    }
+                </td>
+                <td>
+                    $ @Html.DisplayFor(modelItem => item.DescuentoAumentoPesos) ||  USD$ @Html.DisplayFor(modelItem => item.DescuentoAumentoDolares)
+
+                </td>
+                <td>
+                    $  @Html.DisplayFor(modelItem => item.costoTotalPesos) ||  USD$ @Html.DisplayFor(modelItem => item.costoTotalDolares)
+
+                </td>
+                <td>
+                    @if (item.ExcursionComprada.Tipo == "Nacional")
+                    {
+                        ViewBag.Tipo = "Nacional ";
+                    }
+                    @if (item.ExcursionComprada.Tipo == "Internacional")
+                    {
+                        ViewBag.Tipo = "Internacional ";
+                    }
+                    @ViewBag.Tipo
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaCompra)
+                </td>
+                <td>
+                    @if (item.activa == true)
+                    {
+                        ViewBag.activa = "Activa";
+                    }
+                    @if (item.activa == false)
+                    {
+                        ViewBag.activa = "Cancelada";
+                    }
+                    @ViewBag.Activa
+                </td>
+
+            </tr>
+        }
+
+    </table>
+
+    <br />
+    <h2>Total de Compras</h2>
+    <p>$ @ViewBag.Pesos</p>
+    <p>USD$ @ViewBag.Dolares </p>
+}
+<div>
+    @Html.ActionLink("Volver a la pagina principal", "../Home/Index")
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

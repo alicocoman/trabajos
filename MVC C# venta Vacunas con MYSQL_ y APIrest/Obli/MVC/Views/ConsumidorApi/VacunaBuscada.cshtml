@@ -1,0 +1,185 @@
+﻿@model MVC.Models.ModeloVacEntero
+
+@{
+    ViewBag.Title = "VacunaBuscada";
+}
+
+<h2>VacunaBuscada</h2>
+<div>
+    <h4>ModeloVacEntero</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IdTipoDeVacuna)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdTipoDeVacuna)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NombreLaboratorios)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NombreLaboratorios)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CantDosis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CantDosis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DiasEntreDosis)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DiasEntreDosis)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EdadMinima)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EdadMinima)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EdadMaxima)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EdadMaxima)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EficaciaVsCovid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EficaciaVsCovid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrevenirHospitalizacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrevenirHospitalizacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrevenirCTI)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrevenirCTI)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempMinima)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempMinima)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TempMaxima)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TempMaxima)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FaseClinicaAprobacion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FaseClinicaAprobacion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AprovacionDeEmergencia)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AprovacionDeEmergencia)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EfectosAdversos)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EfectosAdversos)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Precio)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ProduccionAnual)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProduccionAnual)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FormaParteCovax)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FormaParteCovax)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaisesQueAprobaronLaVacuna)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaisesQueAprobaronLaVacuna)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CedulaRegistrador)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CedulaRegistrador)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FechaUltimaEdicion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FechaUltimaEdicion)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

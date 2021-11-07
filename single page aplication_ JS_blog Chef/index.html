@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obligatorio programacion 1</title>
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/clases.js"></script>
+  <script src="js/codigo.js"></script>
+  
+</head>
+
+<body>
+
+
+  <div id="contenedor">
+    <div id="cabezal" class="clearfix">
+      <img id="logo" src="http://chefblog.develotion.com/logochef.png" alt="logo">
+
+      <div id="login" class="formulario">
+        <h2>Iniciar Sesión</h2>
+        <form action="#">
+         <input type="text" id="txtUser" placeholder= " Usuario" required> 
+          <input type="password" id="txtPass" placeholder="Contraseña" required>
+          <input type="button" id = "btnLogin" value = "Login">
+        </form>
+      </div>
+      <input type="button" id = "btnLogout" value = "Logout">
+
+      <div id="botoneraAdministrador">
+        <ul id="navPrincipal">
+          <li id="listaRecetas">
+            <a>Ingresar recetas</a>
+          </li>
+          <li id="listaIngresarColaboradores">
+            <a >Agregar colaboradores</a>
+          </li>
+          <li  id="actDesColaboradores">
+            <a>habilitar// deshabilitar colaboradores</a>
+          </li>
+          <li id="reportesRecetas">
+            <a>Reportes de recetas</a>
+          </li>
+
+        </ul>
+      </div>
+   
+    </div>
+
+      <div id="contenido">
+        <div id="campoDeBusqueda">
+          <h1>Contenido</h1>
+          <label for="txtBuscador">¿Buscas una receta?(para ver todas las recetas, haga una busqueda vacia)</label>
+          <br>
+          <input type="text" id="txtBuscador">
+          <input type="button" value="Buscar" id="btnBuscarUsuarioFinal">
+          <hr>
+         
+
+        </div>
+        <div id="ingresarRecetas">
+          <label for="txtTitulo">Ingrese el titulo de la receta</label>
+          <br>
+          <input type="text" id="txtTitulo" placeholder="Titulo">
+          <br>
+          <label for="txtTiempo">Ingrese la duración</label>
+          <br>
+          <input type="text" id="txtTiempo" placeholder="Duración ( en minutos )">
+          <br>
+          <label for="txtResenia">Ingrese la forma de elaboración (max 150 carateres) </label>
+          <br>
+          <textarea id="txtResenia"  maxlength="150" rows="10" cols="40"></textarea>
+          <br>
+          <label for="txtflImagen">Seleccione una imagen para su receta </label>
+          <br>
+          <input type="file" name="buscaImagen" id="flImagen" >
+          <br>
+          
+          <input type="button" value="Ingresar Receta" id="btnReceta">
+        </div>
+        <div id="ingresarColaboradores">
+          <label for="txtNombre">Ingrese el Nombre del colaborador</label>
+          <br>
+          <input type="text" id="txtNombre" placeholder="Nombre">
+          <br>
+          <label for="txtApellido">Ingrese Apellido del colaborador</label>
+          <br>
+          <input type="text" id="txtApellido" placeholder="Apellido">
+          <br>
+         
+          <input type="button" value="Ingresar Colaborador" id="btnColaborador">
+        </div>
+        <div id="listaColaboradores">
+
+        </div>
+        <div id="reportes">
+          <label for="txtMinutos">Ingrese tiempo en minutos:</label>
+          <br>
+          <input type="text" id="txtMinutos">
+          <input type="button" id="btnReportesPorTiempo" value="Buscar">
+          <br>
+          <label for="btnMayorTiempo">Buscar recetas de mayor duracion:</label> 
+          <input type="button" id="btnMayorTiempo" value="Mostrar">
+          <br>
+          <label for="btnPuntuacion">Mostrar recetas de mayor puntuacion:</label>
+          <input type="button" id="btnPuntuacion" value="Rating">
+        <div id="muroReportes"> </div>
+        </div>
+        <div id="muro">
+          <table border="0" id="tblMuro"></table>
+        </div>
+      </div><!-- FIN CONTENIDO -->
+      <div id="pie">
+        <a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by freepik - www.freepik.com</a>
+      </div><!-- FIN PIE -->
+    </div><!-- FIN CONTENEDOR -->
+
+  </div>
+
+
+
+</body>
+
+</html>

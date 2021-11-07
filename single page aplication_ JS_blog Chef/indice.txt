@@ -1,0 +1,85 @@
+Indice
+
+
+
+// Variables y Arrays // desde linea 4 al 14
+
+// INICIO PRECARGA Y CLICKS//
+
+      //Precarga de datos // desde linea 25 al 52
+
+      //eventos de click // desde linea 55 a 68
+
+
+//INTERFAZES DE USUARIO (MOSTRAR Y ESCONDER)//
+
+      // vista del usuario final en la pagina// desde linea 82 a 103
+
+      //vista del administrador en la pagina// desde linea 105 a 147
+
+      //vista del colaborador en la pagina // desde linea 150 a 161
+
+//INGRESAR AL SISTEMA COMO ADMINISTRADOR O COLABORADOR//
+
+      //inicio de sesion// desde linea 174 a 195
+
+      //verificar identidad del colaborador en el inicio de sesion // desde linea 198 a 210
+
+
+//COMO CREAR RECETAS//
+
+      // tomar datos de las recetas // desde linea 223 a 263
+
+      // ingresar una receta al sistema// desde linea 266 a 275
+
+      // contador de recetas de cada colaborador // desde linea 277 a 284
+
+
+//   COMO SE CREAN NUEVOS USUARIOS//
+
+      // toma los datos del html para crear nuevo colaborador// desde linea 297 a 322
+
+      //generar colaborador a partir del nombre y apellido que el chef ingresa// desde linea 325 a 347
+
+      //corroborar si el nombre de usuario ya existe ( sub funcion de generarUsuario )// desde linea 350 a 361
+
+      //generar contraseña para el colaborador ingresado a partir del nombre y apellido que el chef ingresa// desde linea 364 a 370
+
+      // ingresar un colaborador al sistema // desde linea 375 a 380
+
+// MOSTRAR RECETAS PARA USUARIO FINAL//
+
+      //carga de recetas en pantalla del usuario final// desde linea 390 a 448
+
+      //verificar estado del usuario// desde linea 453 a 462
+
+      //ordenar por chef// desde linea 466 a 476
+
+      //funciones me gusta y no me gusta// desde linea 479 a 510
+
+
+
+//COLABORADORES//
+
+      //Mostrar colaboradores// desde linea 520 a 536
+
+      // habilitar y deshabilitar colaboradores// desde linea 538 a 557
+
+
+// REPORTES RECETAS//
+
+      //recetas por tiempo// desde linea 567 a 607
+
+      // mostrar recetas de mayor duracion// desde linea 610 a 632
+
+      // mostrar recetas por mayor rating// desde linea 637 a 678
+
+
+//BUSCADOR DE RECETAS PARA EL USUARIO//
+
+       //buscador// desde linea 686 a 736
+
+       //pushear un array en otro array // desde linea 740 a 745
+
+       // sacar los acentos de strings// desde linea 751 a 754
+

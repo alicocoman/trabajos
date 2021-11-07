@@ -1,0 +1,6 @@
+1|VV|Vacuna que hace efecto sobre el Vector Viral del Covid-19
+2|mRNA|Vacuna que hace efecto sobre el mensaje del Acido Ribo Nucleico del Covid-19
+3|IV|Vacuna en la que se inyecta el virus Covid-19 pero en estado inactivo 
+4|PB|Vacuna Basada en Proteinas la cual lucha contra el Covid-19
+5|VV&mRNA|Vacuna que hace efecto sobre el Vector Viral del Covid-19 y su ARN al mismo tiempo
+6|IV&PB|Vacuna en Base a Proteinas y con el virus inactivo del Covid-19

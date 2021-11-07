@@ -1,0 +1,10 @@
+1|Pfizer|True|Estados Unidos
+2|BioNTech|False|Alemania
+3|Jhonson & Jhonson|True|Estados Unidos
+4|Astrazeneca|True|Inglaterra
+5|Moderna|True|Estados Unidos
+6|Sinovac|False|China
+7|Abbott|True|Estados Unidos
+8|Butantan|True|Brasil
+9|Medtronic|True|Inglaterra
+10|Boston Cientific|True|Estados Unidos

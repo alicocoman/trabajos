@@ -1,0 +1,217 @@
+@import url("fonts/stylesheet.css");
+ h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #c9a74d
+
+}
+.logo{
+    height: 75px
+}
+.navbar {
+    background-color: #000;
+    font-weight: 600;
+    border-bottom: 2px solid #c9a74d;
+
+}
+.navbar .nav-link{
+    border-bottom:1px solid #000;
+    border-top:1px solid #000;
+    padding: 10px;
+    margin: 0 10px;
+    color:#c9a74d !important;
+}
+.navbar .nav-link:hover{
+    border-bottom:1px solid #c9a74d;
+    border-top:1px solid #c9a74d
+}
+.active{
+    border-bottom:1px solid #c9a74d!important;
+    border-top:1px solid #c9a74d!important
+}
+.navbar-toggler , .navbar-toggler:focus{
+    outline: none;
+    border: none;
+    background-color: transparent
+}
+
+/*-------------------------------------------------------*/
+
+#chocolate1 .row , #chocolate2 .row{
+    height: 100vh;
+    background-image:  url(../imagenes/index_1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  center top;
+    text-align: center;
+    color: #c9a74d
+}
+#chocolate2 .row{
+    background-image:  url(../imagenes/index_2.jpg);
+
+}
+
+
+#chocolate1 h1, #chocolate2 h1{
+
+    border-bottom:1px solid #c9a74d;
+    padding: 10px 0;
+    font-size: 50px; 
+    font-weight: 300;
+    color: #c9a74d
+
+}
+#chocolate1t p, #chocolate2 p{
+    font-size: 18px;   
+}
+
+
+
+#nuestros{
+    background-color: #c9a74d
+}
+#nuestros .articulos{
+    background-color: #fff
+}
+#nuestros h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff
+}
+
+#nuestros .row article{
+    text-align: center;
+
+}
+#nuestros .row article img{
+    padding-bottom: 20px
+}
+#nuestros .row article p{
+    margin-bottom: 50px 
+}
+
+#nuestros .row article a{
+    color: #c9a74d;
+    border: 1px solid #c9a74d;
+    padding: 10px
+}
+
+#nuestros h1{
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff
+}
+
+#chupetin h1{
+    font-size: 22px;
+    font-weight: 700;
+    border-bottom: 1px solid #c9a74d;
+    color: #c9a74d 
+}
+
+
+
+footer{
+    color: #fff;
+    background-color: #000
+}
+footer #redes{
+    background-color: #eb9918;
+    text-align: center;
+
+    margin: 20px 0;
+    padding: 20px;
+}
+footer  #redes img{
+    width: 33px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin:0px 5px 0 0
+}
+footer h1{
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    font-weight: 600;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px
+
+}
+footer p{
+    font-size: 14px;
+    margin: 0
+}
+/*Contacto*/
+:focus{
+    outline:0;
+}
+#mail h1{
+    color:#a0542b
+}
+input{
+    padding: 5px;
+    border:0;
+    border-bottom: 2px solid #000    ;
+    width: 100%;
+}
+
+
+input:focus, textarea:focus{
+    border-color: #eb9918;
+
+}
+.enviar{
+    background-color: #ffffff;
+    color: #000
+}
+.enviar:hover{
+    background-color: #eb9918
+}
+
+textarea{
+    resize: none;
+    padding: 5px;
+    border:0;
+    border-bottom:  2px solid #000;
+    display: block;
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+
+
+#nosotros .row{
+    height: 100vh;
+    background-image:  url(../imagenes/equipo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:  center top;
+    color: #fff;
+}
+#nosotros .row div{
+    background-color:#c9a74d ;
+    color: #fff;
+    text-align: center
+}
+#nosotros .row div h1{
+    border-bottom: 1px solid #fff
+}
+
+#equipo h1{
+    font-weight: 600;
+    font-size: 60px;
+    background-color: #c9a74d;
+    color: #fff;
+    text-align: center
+
+}
+#equipo h2{
+    color: #c9a74d;
+    font-weight: 600;
+}
+@media screen and (max-width :740px)
+{
+    .navbar .nav-link{
+        font-size: 35px;
+    }
+}

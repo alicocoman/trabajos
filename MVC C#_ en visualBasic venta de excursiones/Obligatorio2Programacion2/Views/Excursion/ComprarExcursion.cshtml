@@ -1,0 +1,114 @@
+﻿@model Obligatorio2Programacion2.Models.ModeloDeCompra
+
+
+@{
+    ViewBag.Title = " ComprarExcursion";
+
+}
+
+<h1>Informacion de Excursion </h1>
+
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+<div class="form-horizontal">
+    <h2>Compra</h2>
+    <hr />
+
+    <h2>Detalles de la Excursion</h2>
+    <br />
+
+
+    <h3>Descripcion</h3>
+
+    @ViewBag.ExcursionBuscada.Descripcion
+
+    <h3>Fecha de comienzo</h3>
+    @ViewBag.ExcursionBuscada.FechaComienzo
+    <h3>Cantidad de Dias</h3>
+
+    @ViewBag.ExcursionBuscada.CantDias
+    <h3>Lugares Disponibles</h3>
+
+    @ViewBag.ExcursionBuscada.LugaresDisponibles
+    <h3>Destinos</h3>
+
+    @foreach (var Destino in ViewBag.ExcursionBuscada.GetlistaDestinosDeExcursion())
+    {
+        <h4>Ciudad</h4>
+        <p>@Destino.Ciudad</p>
+        <h4>Pais</h4>
+        <p>@Destino.Pais</p>
+        <h4>Cantidad de dias</h4>
+        <p>@Destino.CantidadDeDias</p>
+        <h4>Costo diario</h4>
+        <p>@Destino.CostoDiario</p>
+        <p>------------------------------------------------</p>
+
+
+    }
+
+
+    @if (ViewBag.Internacional != null)
+    {
+        <h4>Compania Aerea</h4>
+        <h5>Codigo de compania</h5>
+        <p>@ViewBag.Internacional.Codigo</p>
+        <h5>Pais de compania</h5>
+        <p>@ViewBag.Internacional.Pais</p>
+    }
+    @if (ViewBag.Nacional != null)
+    {
+
+        <h4>Ministerio de turismo del Uruguay</h4>
+        <p>@ViewBag.Nacional</p>
+
+    }
+
+
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+        <!--Input Mayores-->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Mayores, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Mayores, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Mayores, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <!--Input Menores-->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Menores, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Menores, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Menores, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Comprar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+}
+
+<div>
+    @Html.ActionLink("Volver a Excursiones", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

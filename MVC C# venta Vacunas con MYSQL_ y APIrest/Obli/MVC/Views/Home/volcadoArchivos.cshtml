@@ -1,0 +1,67 @@
+﻿@model IEnumerable<MVC.Models.Vacuna_Nombre_Tipo_Precio>
+
+@{
+    ViewBag.Title = "volcadoArchivos";
+}
+
+<h2>volcadoArchivos</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IdTipoVacuna)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Precio)
+        </th>
+        <th>Link detalles</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoVacuna)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.ActionLink("Detalles", "Details", new {  Nombre=item.Nombre })
+                </td>
+</tr>
+    }
+</table>
+
+<table class="table">
+    <tr>
+        <th>
+            Nombre de usuario
+        </th>
+        <th>
+            Contraseña
+        </th>
+
+        <th></th>
+    </tr>
+    @foreach (var usu in ViewBag.Usuarios)
+    {
+        <tr>
+            <td>
+                @usu.Cedula;
+            </td>
+            <td>
+                @usu.Password; 
+            </td>
+           
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Plantilla inicio - Bootstrap v4.0</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+       <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Font family -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:400,900&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <!--Bootstrap CSS-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!--CSS Propio-->
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+        <!-- JavaScript -->
+        <!-- jQuery, Popper.js + Bootstrap JS o Boostrap con Popper inc. -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!--<script src="js/popper.min.js"></script>-->
+        <!--<script src="js/bootstrap.js"></script>-->
+        <script src="js/bootstrap.bundle.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/logo.svg" alt="logo funko ">
+                </a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fan Zone</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+</nav>
+        </header>
+        <main class="mx-lg-5">
+            <section class="row justify-content-center mx-1 mx-md-0">
+                <figure class=" titulos  my-3 col-8 col-lg-6">
+                    <img class="img-fluid " src="img/titulos.jpg" alt="titulos">
+                </figure>
+                    <h1  class="text-center col-lg-12 mb-4"><strong>Contacto</strong></h1>
+                    <article class="col-md-5 d-none d-md-block ">
+                        <h2>Formulario de contacto</h2>
+                        <p>
+                            (*) Campos obligatorio
+                        </p>
+                        <form action="" method="post">
+                            <input type="email" placeholder="MAIL" required name="mail">
+                            <fieldset>
+                                <legend>¿Sos coleccionista?</legend>
+                                <input type="radio" name="soy" checked="checked" id="op1">
+                                <label for="op1">SI</label>
+                                <input type="radio" name="soy" id="op2">
+                                <label for="op2">NO</label>
+                            </fieldset>
+    
+                            <textarea placeholder="COMENTARIOS" name="comentarios"></textarea>
+                            <input type="submit" class="btn btn-success mt-5 float-right">
+                        </form>
+                    </article>
+                <aside class="col-12 col-md-4 col-lg-3 pt-2">
+                    <h2><strong>¿Cómo llegar?</strong></h2>
+                  <figure><img class="img-fluid" src="img/mapa.jpg" alt="mapa como llegar"></figure>
+                </aside>
+    
+            </section>
+            <section class="row justify-content-center ">
+                <h1 class="my-3 col-lg-12 text-center mb-4"><strong>Zona outlet</strong></h1>
+                <figure class="col-6 col-md-4 col-lg-3 text-center"> <img class="img-fluid" src="img/a.jpg" alt="">
+                <figcaption><strong>Batman - The Dark Knight Returns - Pop! Heroes Vinyl Figure</strong></figcaption> 
+                <p>$22.95</p> 
+                <a href="#">Comprar</a>
+                </figure>
+                <figure class="col-6 col-md-4 col-lg-3 text-center medio"> <img class="img-fluid" src="img/b.png" alt="">
+                    <figcaption><strong> Captain Marvel (2019) - Nick Fury Pop! Vinyl Figure</strong></figcaption> 
+                    <p>$22.95</p> 
+                   <a href="#">Comprar</a>
+                    </figure>
+                    <figure class="col-6 col-md-4 col-lg-3 text-center"> <img class="img-fluid" src="img/c.jpg" alt="">
+                        <figcaption>
+                           <strong> Stranger Things Barb Pop! Vinyl Figure</strong></figcaption> 
+                        <p>$22.95</p> 
+                        <a href="#">Comprar</a>
+                        </figure>
+    
+    
+            </section>
+          
+        </main>
+        <footer class="text-center mb-4 p-2">
+            Juan Benito Blanco 1176 - Montevideo / +598 2707 5846 +598 092 211 177 / Lun - Vier - 10 a 19hs Sábado - 10 a 13hs / info@darksidebros.com.uy
+        </footer>
+    </body>
+</html>

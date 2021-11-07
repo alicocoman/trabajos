@@ -1,0 +1,148 @@
+﻿
+@{
+
+
+    ViewBag.Title = "Estadisticas";
+}
+<h2>Estadisticas</h2>
+
+@if ((string)Session["logueadoRol"] == "Operador")
+{
+
+
+
+    <h2>Buscar Excursion por Destino (Ingrese el Id Del Destino )</h2>
+    using (Html.BeginForm())
+    {
+        <input type="text" id="Destino" name="Destino" required>
+        <br><br />
+        <input type="submit" value="Buscar">
+
+    }
+
+
+    <h2>Ver Destino Mas Usado</h2>
+
+    using (Html.BeginForm())
+    {
+        <input type="submit" value="Buscar">
+        <input type="number" id="boton" name="boton" hidden value="1">
+        <br>
+    }
+
+    <br />
+    <p> @ViewBag.noHayD</p>
+
+    if (ViewBag.TipoBusqueda == "Excursion")
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Fecha Comienzo
+                </th>
+                <th>
+                    Cantidad de Dias
+                </th>
+                <th>
+                    Lugares Disponibles
+                </th>
+                <th>
+                    Taza
+                </th>
+                <th>
+                    Tipo de Excursion
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var E in ViewBag.Excursion)
+            {
+                <tr>
+                    <td>
+                        @E.Descripcion
+                    </td>
+                    <td>
+                        @E.FechaComienzo
+                    </td>
+                    <td>
+                        @E.CantDias
+                    </td>
+                    <td>
+                        @E.LugaresDisponibles
+                    </td>
+                    <td>
+                        @E.Taza
+                    </td>
+                    <td>
+                        @E.Tipo
+                    </td>
+
+                </tr>
+            }
+
+        </table>
+
+    }
+    if (ViewBag.TipoBusqueda == "Destino")
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    <h4>Ciudad</h4>
+                </th>
+                <th>
+                    <h4>Pais</h4>
+                </th>
+                <th>
+                    <h4>Cantidad de dias</h4>
+                </th>
+                <th>
+                    <h4>Costo diario</h4>
+                </th>
+
+            </tr>
+
+
+            @foreach (var Destino in ViewBag.Destinos)
+            {
+                <tr>
+                    <td>@Destino.Ciudad</td>
+
+                    <td>@Destino.Pais</td>
+
+                    <td>@Destino.CantidadDeDias</td>
+
+                    <td>@Destino.CostoDiario</td>
+
+                </tr>
+
+            }
+
+        </table>
+
+    }
+
+
+    <div>
+        @Html.ActionLink("Limpiar Busquedas", "/Estadisticas")
+    </div>
+}
+else
+{
+
+    <h4>Usted no tiene permiso para acceder a esta pagina</h4>
+
+
+
+}
+<div>
+    @Html.ActionLink("Volver a la pagina principal", "../Home/Index")
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

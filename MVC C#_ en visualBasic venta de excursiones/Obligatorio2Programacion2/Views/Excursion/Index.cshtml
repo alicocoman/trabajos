@@ -1,0 +1,60 @@
+﻿@model IEnumerable<obligatorioProgramacion2.Excursion>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Excursiones</h2>
+<p> @ViewBag.noHay</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FechaComienzo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CantDias)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LugaresDisponibles)
+        </th>
+        @if ((string)Session["logueadoRol"] == "Cliente")
+        {
+            <th>Opciones</th>
+        }
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaComienzo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantDias)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LugaresDisponibles)
+            </td>
+            @if ((string)Session["logueadoRol"] == "Cliente")
+            {
+                <td>
+
+                    @Html.ActionLink("Comprar", "ComprarExcursion", new { id = item.Id })
+
+                </td>
+            }
+        </tr>
+    }
+
+
+</table>
+
+<div>
+    @Html.ActionLink("Volver a la pagina principal", "../Home/Index")
+</div>

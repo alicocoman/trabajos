@@ -1,0 +1,8 @@
+Azteca|3
+Azteca|4
+Butanvac|8
+J&J|3
+J&J|10
+Pfizer|1
+Pfizer|2
+Sinovac|6

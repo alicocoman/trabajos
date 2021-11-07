@@ -1,0 +1,94 @@
+*{margin:0;padding:0px;}
+body{
+    background-color: red;
+}
+/*secction1*/
+section:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+p{
+    background-color: black;
+    padding:5px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*HEADER*/
+header{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+}
+nav{
+    padding: 15px 0 0 15px;
+}
+figure{
+    text-align: center;
+}
+/*Section3*/
+section:nth-child(3){
+    height:500px;
+    background-color: salmon;
+}
+
+
+/*resolusion XS*/
+@media(max-width:575px){
+    p:nth-child(1){
+        background-color: red;
+    }
+    p:nth-child(1)::before{
+        content:"montevideo";
+    }
+    section:nth-child(3){
+        background-image: url("../img/montevideo.jpg");
+    }
+  
+}
+
+/*resolucion SM*/
+@media(min-width:576px) and (max-width:767px){
+    p:nth-child(1){
+        background-color: blue;
+    }
+    p:nth-child(1)::before{
+        content:"Londres";
+    }
+    section:nth-child(3){
+        background-image: url("../img/londres.jpg");
+        background-repeat: no-repeat;
+    }
+    
+}
+/*resolucion MD*/
+@media(min-width:768px) and (max-width:991px){
+    p:nth-child(1){
+        background-color: yellow;
+        color: black;
+    }
+    p:nth-child(1)::before{
+        content:"paris";
+    }
+    section:nth-child(3){
+        background-image: url("../img/paris.jpeg");
+        background-repeat: no-repeat;
+    }
+}
+/*resolucion LG*/
+@media(min-width:992px) {
+    
+    p:nth-child(1){
+        background-color: green;
+    }
+    p:nth-child(1)::before{
+        content:"hong kong";
+    }
+    section:nth-child(3){
+        background-image: url("../img/hongkong.jpg");
+        background-repeat: no-repeat;
+    }
+}

@@ -1,0 +1,104 @@
+html{
+      scroll-behavior: smooth;
+}
+.active{
+      border-bottom: 2px solid black;
+}
+nav{
+      background-image: url("../img/fondo_logo.png");
+      background-repeat: no-repeat;
+      border-top : 7px white solid;
+      border-bottom : 7px white solid;
+      background-size: cover;
+}
+a{
+      color: white;
+}
+figure{
+      max-width:150px;
+}
+/*Section 1 paralax cavani*/
+section:nth-child(1){
+      background-image: url("../img/uruguay-ecuador-copa-america.jpg");
+      background-repeat:none;
+      height:400px;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center top;
+      
+}
+/*menu grupo*/
+nav:nth-child(2){
+      background-image: none;
+      background-color:  #155724;
+      height: 130px;
+    
+
+}
+nav:nth-child(2) ul{
+      margin: auto;
+      list-style: none;
+     
+
+}
+nav:nth-child(2) li{
+     
+      display: inline;
+
+}
+nav:nth-child(2) p {
+      margin: auto;
+      color: whitesmoke;
+      font-size: 30px;
+      
+}
+/*transicion del menu paies*/
+.menuPaises nav img{
+      border: 4px dashed transparent;
+      padding: 4px;
+      transition:1s;
+}
+.menuPaises nav img:hover{
+      border-color:  #669900;
+}
+
+/*paises con fotos*/
+section:nth-child(3){
+      background-color: #2fa5fb;
+}
+section:nth-child(4){
+      background-color: #c69500;
+    
+
+}
+section:nth-child(5){
+      background-color: #bd2130;
+      color: white;
+      
+}
+section:nth-child(6){
+      background-color:#002752;
+      color: white;
+      
+}
+section h2{
+      font-size: 32px;
+}
+section h3{
+      font-size: 28px;
+}
+section p{
+      font-size: 16px;
+}
+footer{
+      background-color: #155724;
+      font-size: 16px ;
+}
+footer ul{
+      list-style: none;
+      color: white;
+      
+}
+footer h4{
+      border-bottom: white 1px solid;
+}

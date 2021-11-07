@@ -1,0 +1,61 @@
+main{
+     
+}
+
+header{
+      height: 400px;
+      background-image: url("../img/estudoo.jpg");
+      background-size: cover;
+     
+}
+h1{
+      padding-top: 50px;
+      font-size: 70px;
+      height: 400px;
+      color: white;
+      background-color: rgba(255, 20, 145, 0.5);
+      
+}
+
+section:nth-child(2){
+      background-color:deeppink;
+      background-image: url("../img/bg-pattern.png");
+      color: white;
+      padding: 20px 0px;
+}
+p{
+      font-size: 14px;
+}
+
+h1,h2,h3{
+      font-family: 'Pacifico', cursive;
+}
+
+section:nth-child(3){
+      margin:20px 0;
+}
+
+input,textarea{
+      background-color: deeppink;
+      color: white;
+      border: 0px;
+      width: 100%;
+      margin-top: 5px;
+      padding:5px;
+}
+
+input::placeholder,textarea::placeholder{
+      color: white;
+}
+textarea{
+      resize: none
+}
+h2, footer p{
+      color: deeppink;
+}
+footer{
+      padding:40px;
+   
+      color: deeppink;
+      font-size: smaller;
+}

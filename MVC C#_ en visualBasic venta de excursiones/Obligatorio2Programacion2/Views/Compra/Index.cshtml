@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Obligatorio2Programacion2.Models.Compra>
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Compras</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ExcursionComprada.Descripcion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CantidadPersonasMayores)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.CantidadPersonasMenores)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExcursionComprada.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadPersonasMayores)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.CantidadPersonasMenores)
+            </td>
+            <td>
+                @if (item.ExcursionComprada.FechaComienzo >= DateTime.Today.AddDays(-10))
+                {
+                    @Html.ActionLink("Cancelar Compra", "Cancelar", new { id = item.Id })
+                }
+            </td>
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.ActionLink("Volver a la pagina principal", "../Home/Index")
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

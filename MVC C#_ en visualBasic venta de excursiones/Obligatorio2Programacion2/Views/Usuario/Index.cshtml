@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Obligatorio2Programacion2.Models.Usuario>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Lista Usuarios</h2>
+
+<p>@ViewBag.noHayC</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellido)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cedula)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NombreUsu)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.Rol)
+        </th>
+
+    </tr>
+
+
+    @foreach (var item in Model)
+    {
+        if (item.Rol == "Cliente")
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellido)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cedula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NombreUsu)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Rol)
+                </td>
+
+            </tr>
+        }
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Volver a la pagina principal", "../Home/Index")
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
